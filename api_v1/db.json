@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Practical",
+      "cost": 18.42761839696445,
+      "quantity": 495.57811912548846
+    },
+    {
+      "id": 2,
+      "name": "local",
+      "cost": 33.19425543949879,
+      "quantity": 161.70401558630587
+    },
+    {
+      "id": 3,
+      "name": "San Marino Architect",
+      "cost": 49.2828561268712,
+      "quantity": 427.1013610040979
+    },
+    {
+      "id": 4,
+      "name": "Awesome tan",
+      "cost": 8.784913908294012,
+      "quantity": 693.289404524912
+    },
+    {
+      "id": 5,
+      "name": "Cambridgeshire European Monetary Unit (E.M.U.-6)",
+      "cost": 66.65031971749002,
+      "quantity": 352.6657049924604
+    },
+    {
+      "id": 6,
+      "name": "Concrete",
+      "cost": 43.07930763363315,
+      "quantity": 298.7001727736576
+    },
+    {
+      "id": 7,
+      "name": "Car Legacy connect",
+      "cost": 95.52705309339493,
+      "quantity": 779.829964225125
+    },
+    {
+      "id": 8,
+      "name": "Small Cambridgeshire Fresh",
+      "cost": 12.838664017644907,
+      "quantity": 792.8091943584287
+    },
+    {
+      "id": 9,
+      "name": "Investment Account",
+      "cost": 15.463000515765968,
+      "quantity": 712.5694870902814
+    },
+    {
+      "id": 10,
+      "name": "Kenya",
+      "cost": 37.85848245350956,
+      "quantity": 691.2813448853927
+    }
+  ]
+}
