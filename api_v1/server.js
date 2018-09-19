@@ -5,22 +5,24 @@ const fs = require('fs')
 const bodyParser = require('body-parser')
 const jsonServer = require('json-server')
 const jwt = require('jsonwebtoken')
+const bcrypt = require('bcrypt')
+
+// JWT confing data
+const SECRET_KEY = '123456789'
+const expiresIn = '1h'
 
 // Create server
 const server = jsonServer.create()
 
 // Create router
-const touter = jsonServer.router('./db.json')
+const router = jsonServer.router('./api_v1/db.json')
 
 // Users database
-const usersDB = JSON.parse(fs.readFile('./users.json', 'UTF8'))
+const userdb = JSON.parse(fs.readFileSync('./api_v1/users.json', 'UTF-8'))
 
 // Default middlewares
-server.use(jsonServer.defaults())
-
-// JWT confing data
-const SECRET_KEY = '123456789'
-const expiresIn = '1h'
+server.use(bodyParser.urlencoded({ extended: true }))
+server.use(bodyParser.json())
 
 // Create a token from a payload
 function createToken(payload) {
@@ -40,7 +42,8 @@ function verifyToken(token) {
 function isAuthenticated({ email, password }) {
   return (
     userdb.users.findIndex(
-      user => user.email === email && user.password === password
+      user =>
+        user.email === email && bcrypt.compareSync(password, user.password)
     ) !== -1
   )
 }
@@ -57,11 +60,13 @@ server.post('/auth/login', (req, res) => {
     res.status(status).json({ status, message })
     return
   }
-  const access_token = createToken({ email, password })
-  res.status(200).json({ access_token })
+  const token = createToken({ email, password })
+  res.status(200).json({ token })
 })
 
-// Chech auth middleware
+/**
+ * Middleware: Check authorization
+ */
 server.use(/^(?!\/auth).*$/, (req, res, next) => {
   if (
     req.headers.authorization === undefined ||

@@ -2,15 +2,27 @@
   "users": [
     {
       "id": 1,
-      "name": "bruno",
-      "email": "bruno@email.com",
-      "password": "bruno"
+      "name": "Freddie",
+      "email": "freddie@queen.com",
+      "password": "$2b$08$VIlsD7U1pCi3YcCTr9PsgOk9TzX0tTEKE96zDvHuS.TXnbZGmwKoO"
     },
     {
       "id": 2,
-      "name": "nilson",
-      "email": "nilson@email.com",
-      "password": "nilson"
+      "name": "Brian",
+      "email": "brian@queen.com",
+      "password": "$2b$08$VIlsD7U1pCi3YcCTr9PsgOk9TzX0tTEKE96zDvHuS.TXnbZGmwKoO"
+    },
+    {
+      "id": 3,
+      "name": "Rogery",
+      "email": "roger@queen.com",
+      "password": "$2b$08$VIlsD7U1pCi3YcCTr9PsgOk9TzX0tTEKE96zDvHuS.TXnbZGmwKoO"
+    },
+    {
+      "id": 2,
+      "name": "John",
+      "email": "john@queen.com",
+      "password": "$2b$08$VIlsD7U1pCi3YcCTr9PsgOk9TzX0tTEKE96zDvHuS.TXnbZGmwKoO"
     }
   ]
 }

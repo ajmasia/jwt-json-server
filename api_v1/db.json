@@ -2,63 +2,145 @@
   "products": [
     {
       "id": 1,
-      "name": "Practical",
-      "cost": 18.42761839696445,
-      "quantity": 495.57811912548846
+      "name": "Keyboard",
+      "color": "purple",
+      "cost": "23.00",
+      "quantity": 443
     },
     {
       "id": 2,
-      "name": "local",
-      "cost": 33.19425543949879,
-      "quantity": 161.70401558630587
+      "name": "Table",
+      "color": "green",
+      "cost": "491.00",
+      "quantity": 623
     },
     {
       "id": 3,
-      "name": "San Marino Architect",
-      "cost": 49.2828561268712,
-      "quantity": 427.1013610040979
+      "name": "Tuna",
+      "color": "magenta",
+      "cost": "166.00",
+      "quantity": 663
     },
     {
       "id": 4,
-      "name": "Awesome tan",
-      "cost": 8.784913908294012,
-      "quantity": 693.289404524912
+      "name": "Fish",
+      "color": "azure",
+      "cost": "422.00",
+      "quantity": 680
     },
     {
       "id": 5,
-      "name": "Cambridgeshire European Monetary Unit (E.M.U.-6)",
-      "cost": 66.65031971749002,
-      "quantity": 352.6657049924604
+      "name": "Bike",
+      "color": "red",
+      "cost": "940.00",
+      "quantity": 558
     },
     {
       "id": 6,
-      "name": "Concrete",
-      "cost": 43.07930763363315,
-      "quantity": 298.7001727736576
+      "name": "Salad",
+      "color": "purple",
+      "cost": "812.00",
+      "quantity": 624
     },
     {
       "id": 7,
-      "name": "Car Legacy connect",
-      "cost": 95.52705309339493,
-      "quantity": 779.829964225125
+      "name": "Mouse",
+      "color": "maroon",
+      "cost": "358.00",
+      "quantity": 878
     },
     {
       "id": 8,
-      "name": "Small Cambridgeshire Fresh",
-      "cost": 12.838664017644907,
-      "quantity": 792.8091943584287
+      "name": "Bacon",
+      "color": "magenta",
+      "cost": "765.00",
+      "quantity": 81
     },
     {
       "id": 9,
-      "name": "Investment Account",
-      "cost": 15.463000515765968,
-      "quantity": 712.5694870902814
+      "name": "Gloves",
+      "color": "tan",
+      "cost": "363.00",
+      "quantity": 316
     },
     {
       "id": 10,
-      "name": "Kenya",
-      "cost": 37.85848245350956,
-      "quantity": 691.2813448853927
+      "name": "Shirt",
+      "color": "yellow",
+      "cost": "558.00",
+      "quantity": 195
+    }
+  ],
+  "sellers": [
+    {
+      "id": 1,
+      "firstName": "Ansley",
+      "lastName": "Zulauf",
+      "jobArea": "Tactics",
+      "address": "Taiwan"
+    },
+    {
+      "id": 2,
+      "firstName": "Efrain",
+      "lastName": "Corwin",
+      "jobArea": "Intranet",
+      "address": "Solomon Islands"
+    },
+    {
+      "id": 3,
+      "firstName": "Gaston",
+      "lastName": "O'Keefe",
+      "jobArea": "Data",
+      "address": "Japan"
+    },
+    {
+      "id": 4,
+      "firstName": "Lewis",
+      "lastName": "Hahn",
+      "jobArea": "Assurance",
+      "address": "Russian Federation"
+    },
+    {
+      "id": 5,
+      "firstName": "Sibyl",
+      "lastName": "Nolan",
+      "jobArea": "Integration",
+      "address": "Vietnam"
+    },
+    {
+      "id": 6,
+      "firstName": "Bria",
+      "lastName": "Smith",
+      "jobArea": "Paradigm",
+      "address": "Cambodia"
+    },
+    {
+      "id": 7,
+      "firstName": "Alexandrine",
+      "lastName": "Hauck",
+      "jobArea": "Directives",
+      "address": "Guatemala"
+    },
+    {
+      "id": 8,
+      "firstName": "Nia",
+      "lastName": "Towne",
+      "jobArea": "Creative",
+      "address": "Trinidad and Tobago"
+    },
+    {
+      "id": 9,
+      "firstName": "Bette",
+      "lastName": "Bode",
+      "jobArea": "Infrastructure",
+      "address": "Australia"
+    },
+    {
+      "id": 10,
+      "firstName": "Alan",
+      "lastName": "Boehm",
+      "jobArea": "Optimization",
+      "address": "Niger"
     }
   ]
 }

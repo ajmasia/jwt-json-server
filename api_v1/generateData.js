@@ -1,15 +1,23 @@
 const faker = require('faker')
 const R = require('ramda')
 
-var db = { products: [] }
+var productsDatabase = { products: [], sellers: [] }
 
 for (var i = 1; i <= 10; i++) {
-  db.products.push({
+  productsDatabase.products.push({
     id: i,
-    name: faker.random.words(),
-    cost: Math.random() * 100,
-    quantity: Math.random() * 1000
+    name: faker.commerce.product(),
+    color: faker.commerce.color(),
+    cost: faker.commerce.price(),
+    quantity: Math.floor(Math.random() * 1000)
+  })
+  productsDatabase.sellers.push({
+    id: i,
+    firstName: faker.name.firstName(),
+    lastName: faker.name.lastName(),
+    jobArea: faker.name.jobArea(),
+    address: faker.address.country()
   })
 }
 
-console.log(JSON.stringify(db))
+console.log(JSON.stringify(productsDatabase))
