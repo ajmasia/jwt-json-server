@@ -1,3 +1,6 @@
+/**
+ * Required libraries
+ */
 const faker = require('faker')
 
 var productsDatabase = { products: [], sellers: [] }

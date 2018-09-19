@@ -6,7 +6,8 @@
   "scripts": {
     "start": "json-server --watch ./api_v1/db.json",
     "start-auth": "node ./api_v1/server.js",
-    "mock-data": "node ./api_v1/generateData.js > ./api_v1/db.json"
+    "mock-data": "node ./api_v1/generateData.js > ./api_v1/db.json",
+    "hash": "node ./api_v1/tools.js"
   },
   "keywords": [
     "api"
@@ -14,6 +15,7 @@
   "author": "Antonio José Masiá",
   "license": "MIT",
   "dependencies": {
+    "async": "^2.6.1",
     "bcrypt": "^3.0.0",
     "faker": "^4.1.0",
     "json-server": "^0.14.0",
