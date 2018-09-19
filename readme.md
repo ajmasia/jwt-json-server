@@ -10,17 +10,17 @@ To generate database mock data run `npm run mock-data`.
 
 ## Start/Stop servers
 
-| Description               | Script             |
-| ------------------------- | ------------------ |
-| Start server without auth | npm start          |
-| Start server with auth    | npm run start-auth |
+| Description               | Script               |
+| ------------------------- | -------------------- |
+| Start server without auth | `npm start`          |
+| Start server with auth    | `npm run start-auth` |
 
 ## Tools
 
-| Description                    | Script            |
-| ------------------------------ | ----------------- |
-| Generate mock data             | npm run mock-data |
-| Generate user hashed passwords | npm run hash      |
+| Description                    | Script              |
+| ------------------------------ | ------------------- |
+| Generate mock data             | `npm run mock-data` |
+| Generate user hashed passwords | `npm run hash`      |
 
 [json-server api reference](https://github.com/typicode/json-server)
 
