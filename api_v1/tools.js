@@ -3,7 +3,7 @@ const bcrypt = require('bcrypt')
 // Password hash method
 const hashPassword = plain => bcrypt.hashSync(plain, 8)
 
-console.log(hashPassword('admin'))
+console.log('Hash code for password admin:', hashPassword('admin'))
 
 const compare = bcrypt.compareSync(
   'admin',
@@ -11,7 +11,7 @@ const compare = bcrypt.compareSync(
 )
 
 if (compare) {
-  return console.log(compare)
+  return console.log('Hash admin compare:', compare)
 } else {
-  return console.log(compare)
+  return console.log('Hash admin compare:', compare)
 }

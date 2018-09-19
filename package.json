@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "json-server --watch ./api_v1/db.json",
-    "start-auth": "node ./api_v1/server.js"
+    "start-auth": "node ./api_v1/server.js",
+    "mock-data": "node ./api_v1/generateData.js > ./api_v1/db.json"
   },
   "keywords": [
     "api"

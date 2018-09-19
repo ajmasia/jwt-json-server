@@ -1,5 +1,4 @@
 const faker = require('faker')
-const R = require('ramda')
 
 var productsDatabase = { products: [], sellers: [] }
 
