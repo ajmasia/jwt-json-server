@@ -22,6 +22,15 @@ To generate database mock data run `npm run mock-data`.
 | Generate mock data             | `npm run mock-data` |
 | Generate user hashed passwords | `npm run hash`      |
 
+## Endpoints for auth server
+
+| Endpoint                    | Description              |
+| ------------------------------ | ------------------- |
+| `localhost:3000/auth/login`             | Login user |
+| `localhost:3000/products`             | Products list (token needed) |
+| `localhost:3000/sellers`             | Sellers list (token needed) |
+
+
 [json-server api reference](https://github.com/typicode/json-server)
 
 ## Thecnologies used

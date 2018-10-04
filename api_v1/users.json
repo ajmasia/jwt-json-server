@@ -4,25 +4,25 @@
       "id": 1,
       "name": "Freddie",
       "email": "freddie@queen.com",
-      "password": "$2b$08$VIlsD7U1pCi3YcCTr9PsgOk9TzX0tTEKE96zDvHuS.TXnbZGmwKoO"
+      "password": "$2b$08$BjbCY62KrjAvvqs/cURqFu5F4vgcsAwgHDxSAn/kX5lHjLFPQLrn."
     },
     {
       "id": 2,
       "name": "Brian",
       "email": "brian@queen.com",
-      "password": "$2b$08$VIlsD7U1pCi3YcCTr9PsgOk9TzX0tTEKE96zDvHuS.TXnbZGmwKoO"
+      "password": "$2b$08$BjbCY62KrjAvvqs/cURqFu5F4vgcsAwgHDxSAn/kX5lHjLFPQLrn."
     },
     {
       "id": 3,
       "name": "Rogery",
       "email": "roger@queen.com",
-      "password": "$2b$08$VIlsD7U1pCi3YcCTr9PsgOk9TzX0tTEKE96zDvHuS.TXnbZGmwKoO"
+      "password": "$2b$08$BjbCY62KrjAvvqs/cURqFu5F4vgcsAwgHDxSAn/kX5lHjLFPQLrn."
     },
     {
       "id": 2,
       "name": "John",
       "email": "john@queen.com",
-      "password": "$2b$08$VIlsD7U1pCi3YcCTr9PsgOk9TzX0tTEKE96zDvHuS.TXnbZGmwKoO"
+      "password": "$2b$08$BjbCY62KrjAvvqs/cURqFu5F4vgcsAwgHDxSAn/kX5lHjLFPQLrn."
     }
   ]
 }
